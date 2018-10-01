@@ -48,20 +48,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
-    <Compile Include="model\ApplicationGroup.cs" />
-    <Compile Include="model\ApplicationRole.cs" />
-    <Compile Include="model\ApplicationRoleGroup.cs" />
-    <Compile Include="model\ApplicationUser.cs" />
-    <Compile Include="model\ApplicationUserGroup.cs" />
-    <Compile Include="model\ContactDetail.cs" />
-    <Compile Include="model\Error.cs" />
-    <Compile Include="model\Feedback.cs" />
-    <Compile Include="model\Footer.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="model\Menu.cs" />
-    <Compile Include="model\MenuGroup.cs" />
-    <Compile Include="model\Product.cs" />
-    <Compile Include="model\ProductCategory.cs" />
+    <Compile Include="Models\Footer.cs" />
+    <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\MenuGroup.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\Page.cs" />
+    <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\PostCategory.cs" />
+    <Compile Include="Models\PostTag.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductCategory.cs" />
+    <Compile Include="Models\ProductTag.cs" />
+    <Compile Include="Models\Slide.cs" />
+    <Compile Include="Models\SupportOnline.cs" />
+    <Compile Include="Models\SystemConfig.cs" />
+    <Compile Include="Models\Tag.cs" />
+    <Compile Include="Models\VisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
